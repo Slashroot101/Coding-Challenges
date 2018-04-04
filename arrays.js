@@ -61,4 +61,21 @@
     return ret;
   }
   
-  
+
+
+ /**
+  * UTILITY FUNCTIONS -
+  * 
+  * These functions were used somewhere and are reusable. There are some utility functions above, 
+  * but they are generally specific to that dataset. These are not specific.
+  * 
+  */
+
+ function generateRandomArray(){
+  let rnd = Math.random () * (10000 - 0) + 0;
+  let ret = [];
+  for(let i = 0; i < rnd; i ++){
+    ret[i] = Math.random () * (25000 - 0) + 0;
+  }
+  return ret;
+}
